@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FBB60F01EDE616000465ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB60EF1EDE616000465ED5 /* AppDelegate.m */; };
+		4FBB60F31EDE616000465ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB60F21EDE616000465ED5 /* main.m */; };
+		4FBB60F61EDE616000465ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB60F51EDE616000465ED5 /* ViewController.m */; };
+		4FBB60F81EDE616000465ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBB60F71EDE616000465ED5 /* Assets.xcassets */; };
+		4FBB60FB1EDE616000465ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBB60F91EDE616000465ED5 /* Main.storyboard */; };
+		4FBB61041EDE617500465ED5 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB61031EDE617500465ED5 /* TestObj.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FBB60EB1EDE616000465ED5 /* LearnLockIniOSMultiThreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnLockIniOSMultiThreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBB60EE1EDE616000465ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FBB60EF1EDE616000465ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FBB60F21EDE616000465ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FBB60F41EDE616000465ED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FBB60F51EDE616000465ED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FBB60F71EDE616000465ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FBB60FA1EDE616000465ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FBB60FC1EDE616000465ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBB61021EDE617500465ED5 /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		4FBB61031EDE617500465ED5 /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FBB60E81EDE616000465ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FBB60E21EDE616000465ED5 = {
+			isa = PBXGroup;
+			children = (
+				4FBB60ED1EDE616000465ED5 /* LearnLockIniOSMultiThreading */,
+				4FBB60EC1EDE616000465ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FBB60EC1EDE616000465ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FBB60EB1EDE616000465ED5 /* LearnLockIniOSMultiThreading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FBB60ED1EDE616000465ED5 /* LearnLockIniOSMultiThreading */ = {
+			isa = PBXGroup;
+			children = (
+				4FBB61021EDE617500465ED5 /* TestObj.h */,
+				4FBB61031EDE617500465ED5 /* TestObj.m */,
+				4FBB60EE1EDE616000465ED5 /* AppDelegate.h */,
+				4FBB60EF1EDE616000465ED5 /* AppDelegate.m */,
+				4FBB60F41EDE616000465ED5 /* ViewController.h */,
+				4FBB60F51EDE616000465ED5 /* ViewController.m */,
+				4FBB60F71EDE616000465ED5 /* Assets.xcassets */,
+				4FBB60F91EDE616000465ED5 /* Main.storyboard */,
+				4FBB60FC1EDE616000465ED5 /* Info.plist */,
+				4FBB60F11EDE616000465ED5 /* Supporting Files */,
+			);
+			path = LearnLockIniOSMultiThreading;
+			sourceTree = "<group>";
+		};
+		4FBB60F11EDE616000465ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FBB60F21EDE616000465ED5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FBB60EA1EDE616000465ED5 /* LearnLockIniOSMultiThreading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBB60FF1EDE616000465ED5 /* Build configuration list for PBXNativeTarget "LearnLockIniOSMultiThreading" */;
+			buildPhases = (
+				4FBB60E71EDE616000465ED5 /* Sources */,
+				4FBB60E81EDE616000465ED5 /* Frameworks */,
+				4FBB60E91EDE616000465ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnLockIniOSMultiThreading;
+			productName = LearnLockIniOSMultiThreading;
+			productReference = 4FBB60EB1EDE616000465ED5 /* LearnLockIniOSMultiThreading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FBB60E31EDE616000465ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = melody5417;
+				TargetAttributes = {
+					4FBB60EA1EDE616000465ED5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4FBB60E61EDE616000465ED5 /* Build configuration list for PBXProject "LearnLockIniOSMultiThreading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FBB60E21EDE616000465ED5;
+			productRefGroup = 4FBB60EC1EDE616000465ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FBB60EA1EDE616000465ED5 /* LearnLockIniOSMultiThreading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FBB60E91EDE616000465ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBB60F81EDE616000465ED5 /* Assets.xcassets in Resources */,
+				4FBB60FB1EDE616000465ED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FBB60E71EDE616000465ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBB60F61EDE616000465ED5 /* ViewController.m in Sources */,
+				4FBB60F31EDE616000465ED5 /* main.m in Sources */,
+				4FBB60F01EDE616000465ED5 /* AppDelegate.m in Sources */,
+				4FBB61041EDE617500465ED5 /* TestObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FBB60F91EDE616000465ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FBB60FA1EDE616000465ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FBB60FD1EDE616000465ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FBB60FE1EDE616000465ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FBB61001EDE616000465ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LearnLockIniOSMultiThreading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melody5417.LearnLockIniOSMultiThreading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FBB61011EDE616000465ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LearnLockIniOSMultiThreading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melody5417.LearnLockIniOSMultiThreading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FBB60E61EDE616000465ED5 /* Build configuration list for PBXProject "LearnLockIniOSMultiThreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBB60FD1EDE616000465ED5 /* Debug */,
+				4FBB60FE1EDE616000465ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBB60FF1EDE616000465ED5 /* Build configuration list for PBXNativeTarget "LearnLockIniOSMultiThreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBB61001EDE616000465ED5 /* Debug */,
+				4FBB61011EDE616000465ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FBB60E31EDE616000465ED5 /* Project object */;
+}
